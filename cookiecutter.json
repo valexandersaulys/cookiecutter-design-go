@@ -1,0 +1,7 @@
+{
+  "directory_name": "examplepage",
+  "project_name": "example/examplepage",
+  "_copy_without_render": [
+    "*tmpl"
+  ]
+}
