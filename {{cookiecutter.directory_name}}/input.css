@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.size-screen {
+    @apply w-screen h-screen flex flex-col
+    /* @apply w-screen h-screen */
+}
+
+.navbar {
+    @apply grow-0 shrink-0 bg-green-900 h-12 w-full flex flex-row justify-between items-center text-green-50 px-4
+}
+.navbar .left-subgroup {
+    @apply inline-flex items-baseline space-x-4
+}
+.navbar .left-subgroup a, .navbar .right-subgroup a {
+    @apply hover:underline cursor-pointer
+}
+.navbar .right-subgroup {
+    @apply inline-flex items-baseline space-x-4
+}
+
+.content-container {
+    @apply grow shrink flex flex-col bg-gradient-to-tl from-white to-green-50 pt-4 overflow-y-auto /*md:overflow-hidden*/
+}
+
+.grid-container {
+    @apply md:mx-auto pl-4 lg:max-w-6xl grid grid-cols-1 md:grid-cols-3 space-y-8 space-x-0 md:space-y-0 md:space-x-8 h-full
+}
