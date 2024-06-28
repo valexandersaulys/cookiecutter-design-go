@@ -8,6 +8,13 @@
   </head>
   <body>
     <h1>Hello from {{.ProjectName}}!</h1>
+    {{template "thing" .}}
   </body>  
 </html>
+{{end}}
+
+{{define "thing"}}
+<div class="">
+  This is a thing
+</div>
 {{end}}
