@@ -42,9 +42,9 @@ tmp_dir = "tmp"
   clean_on_exit = false
 
 [proxy]
-  app_port = 0
-  enabled = false
-  proxy_port = 0
+  enabled = true
+  app_port = 8081
+  proxy_port = 8080  # will run on port 8080 with live-reload injection
 
 [screen]
   clear_on_rebuild = false
