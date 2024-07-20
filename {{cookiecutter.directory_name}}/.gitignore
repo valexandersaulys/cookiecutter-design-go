@@ -3,3 +3,5 @@
 *tmp
 \#*\#*
 tmp/*
+*/static/output.css
+.DS_Store
